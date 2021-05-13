@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notes.NotesActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <include
+
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar" />
+
+
+    <com.example.mahrous.notes.customwidgets.NotesRecyclerView
+        android:id="@+id/notes_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool_bar" />
+
+    <include
+        android:id="@+id/empty_note"
+        layout="@layout/empty_drops" />
+</RelativeLayout>

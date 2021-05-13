@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ToolBarPopUp" parent="Theme.AppCompat.Light">
+
+        <item name="android:colorBackground">@color/green</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="DatePickerTextStyle">
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawableTop">@drawable/up_normal</item>
+        <item name="android:drawableBottom">@drawable/down_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@drawable/picker_text_view_background</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">@dimen/picker_sizes</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

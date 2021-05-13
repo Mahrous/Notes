@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="120dp"
+    android:layout_marginEnd="60dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_marginStart="60dp"
+    android:layout_marginTop="120dp"
+    android:background="@drawable/footer_back"
+    android:text="@string/add_a_drop"
+    android:textAllCaps="false"
+    android:textSize="@dimen/add_title_text_size">
+
+</android.support.v7.widget.AppCompatButton>

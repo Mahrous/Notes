@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:padding="24dp">
+
+    <android.support.v7.widget.AppCompatImageButton
+
+        android:id="@+id/close_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mark_btn"
+        android:layout_alignBottom="@+id/title_textview"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/title_textview"
+        android:background="@android:color/transparent"
+        android:src="@drawable/close" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mark_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="96dp"
+        android:layout_marginTop="96dp"
+        android:background="@null"
+        android:drawablePadding="16dp"
+        android:drawableTop="@drawable/mark"
+        android:text="@string/mark_completed"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+</RelativeLayout>

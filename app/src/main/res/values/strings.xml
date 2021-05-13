@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="add_a_drop">Add A Note</string>
+    <string name="what_to_do_str">What To do..?</string>
+    <string name="add">ADD.!</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="add_item">add</string>
+    <string name="most_time_left">Most Time Left</string>
+    <string name="least_time_left">Least Time Left</string>
+    <string name="complete">Complete</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="no_items_to_display">No Items To Display</string>
+    <string name="all_notes">All Notes</string>
+</resources>

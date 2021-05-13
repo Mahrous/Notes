@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_clicked"
+    android:orientation="horizontal"
+    android:padding="22dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@null"
+        android:src="@drawable/note" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/what_text_view"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingEnd="22dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingStart="22dp"
+        android:text="IslamBahget"
+        android:textDirection="ltr" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/when_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
